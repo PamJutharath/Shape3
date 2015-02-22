@@ -13,6 +13,7 @@ public class TestCircle {
 		obj.setRadius (r) ;
 		double radius = obj.getRadius();
 		double area = obj.computeArea () ;
+		double perimeter= obj.getPerimeter();
+		System.out.println ("Radius = "+radius+"\nArea = "+area+"\nperimeyer = "+perimeter) ;
 	}
-
 }
