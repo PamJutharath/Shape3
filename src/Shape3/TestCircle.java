@@ -12,6 +12,7 @@ public class TestCircle {
 		double r = scan.nextDouble() ;
 		obj.setRadius (r) ;
 		double radius = obj.getRadius();
+		double area = obj.computeArea () ;
 	}
 
 }
