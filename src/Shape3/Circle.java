@@ -10,5 +10,10 @@ public class Circle {
 	public void setRadius(double circleRadius) {
 		radius = circleRadius ;
 	}
+	
+	public double getRadius() {
+		return radius;
+	}
+
 
 }

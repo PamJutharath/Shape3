@@ -11,8 +11,7 @@ public class TestCircle {
 		System.out.print ("Enter a radius : ") ;
 		double r = scan.nextDouble() ;
 		obj.setRadius (r) ;
-
-
+		double radius = obj.getRadius();
 	}
 
 }
